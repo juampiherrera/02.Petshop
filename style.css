@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.Texto a:hover {
+    background-color: #fdd06d;
+}
+
+
+.Barra_Ofertas {
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 90px;
+
+}
+
+.Barra_Ofertas a {
+    color: #F3F3F3;
+}
+
+
+.Idioma {
+    display: flex;
+    gap: 10px;
+}
+
+
+.Barra_Menu {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.Menu {
+    display: flex;
+    gap: 20px;
+}
+
+.Menu li a {
+    font-size: 13px;
+}
+
+
+.Texto {
+    background-image: url(./imagenes/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 409px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+    padding: 1px;
+    text-align: center;
+}
+
+.Texto h1 {
+    background-color:white;
+    display: inline;
+    padding: 10px;
+    margin-right: 22px;
+    border-radius: 10px;
+}
+
+.Texto p {
+    margin: 20px;
+    text-align: center;
+}
+
+
+.Texto a {
+    background-color: #F0A83E;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+.Productos {
+    text-align: center;
+    color: #3C2313;
+    font-size: 20px;
+}
+
+.Productos a {
+    color: black;
+    font-size: 15px;
+}
+
+
+.Productos ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.Productos img {
+    margin-top: 30px;
+}
+
+
+.Tarjeta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.Tarjeta_1 {
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+.Tarjeta_2 {
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+.Tarjeta_3 {
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+
+.Suscripcion {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.Suscripcion h2 {
+    margin-top: 15px;
+    color: #F3F3F3;
+}
+
+.Ingresar {
+    display: flex;
+    gap: 20px;
+}
+
+.Ingresar li a {
+    background-color: #3C2313;
+    border-radius: 15px;
+    width: 70px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.Ingresar li input {
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+
+.Pie_Pagina {
+    background-color: #3C2313;
+    color: white;
+}
+
+.Derechos {
+    background-color: #222222;
+    color:white;
+    height: 20px;
+    text-align: center;
+}
+
+.Informacion {
+    padding: 30px;
+}
+
+.Informacion p {
+    color: #8A8787;
+}
+
+.Localidad {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Telefono {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Correo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.Formulario {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Formulario h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313;
+
+}
+
+.Formulario .Columna {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 340px;
+}
+
+
+.Formulario .Columna>input {
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3C2313;
+}
+
+.Formulario .Boton {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Formulario .Boton>a {
+    background-color: #F0A83E;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Formulario .Boton>p {
+    background-color: #8A8787;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+@media(max-width: 580px) {
+
+    .Productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Menu {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .Menu {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .Derechos {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 800px) {
+
+    .Tarjeta {
+        flex-direction: column;
+        align-items: center;
+    }
+}
